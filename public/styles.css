@@ -2,3 +2,22 @@
   /* background-color: red; */
   max-width: 1300px;
 }
+
+#btn-refresh:active {
+  transform: scale(0.98);
+}
+
+.list-item {
+  width: fit-content;
+  margin-bottom: 0.5rem;
+}
+
+.list-item:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: #ffe066;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+}
